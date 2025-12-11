@@ -4,77 +4,96 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Detail Page</title>
-    <!-- Tailwind CSS CDN -->
+    <title>BERRYATIONS Project Page 1</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-white text-gray-800">
-    <div class="min-h-screen bg-white text-gray-800 p-6 md:p-12">
-        <div class="max-w-4xl mx-auto space-y-10">
-            <!-- Header -->
-            <header class="space-y-3">
-                <h1 class="text-4xl font-bold tracking-tight">BERRYTIONS Website</h1>
-                <p class="text-lg text-gray-600">this is what i have planned!.</p>
-            </header>
-            <!-- Hero Image -->
-            <div class="w-full h-72 bg-gray-200 rounded-2xl shadow-md overflow-hidden flex items-center justify-center">
-                <span class="text-gray-500">Image Placeholder</span>
-            </div>
-            <!-- About Section -->
-            <section class="space-y-4">
-                <h2 class="text-2xl font-semibold">About This Project</h2>
-                <p class="leading-relaxed">
-                    I want people to see my work and to fall in love with it. I put all my
-                    efforts into every piece. I just want to be able to make others happy and 
-                    hopefully gain a big career off of this experience.
-                </p>
-            </section>
-            <!-- Highlights Section -->
-            <section class="space-y-4">
-                <h2 class="text-2xl font-semibold">Key Features</h2>
-                <ul class="list-disc list-inside space-y-2">
-                    <li>Cutomer is able to see my work.</li>
-                    <li>Customer is able to contact/commisson me through the site.</li>
-                    <li>Customer is able to see my prices and learn about me.</li>
-                </ul>
-            </section>
-            <!-- Gallery -->
-            <section class="space-y-4">
-                <h2 class="text-2xl font-semibold">Gallery</h2>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div class="h-48 bg-gray-200 rounded-xl flex items-center justify-center shadow">
-                        <span class="text-gray-500">Image 1</span>
-                    </div>
-                    <div class="h-48 bg-gray-200 rounded-xl flex items-center justify-center shadow">
-                        <span class="text-gray-500">Image 2</span>
-                    </div>
-                    <div class="h-48 bg-gray-200 rounded-xl flex items-center justify-center shadow">
-                        <span class="text-gray-500">Image 3</span>
-                    </div>
-                    <div class="h-48 bg-gray-200 rounded-xl flex items-center justify-center shadow">
-                        <span class="text-gray-500">Image 4</span>
-                    </div>
-                </div>
-            </section>
-            <!-- Tech Stack -->
-            <section class="space-y-4">
-                <h2 class="text-2xl font-semibold">Tech Stack</h2>
-                <div class="flex flex-wrap gap-3">
-                    <span class="px-4 py-2 bg-gray-100 rounded-full shadow text-sm">HTML</span>
-                    <span class="px-4 py-2 bg-gray-100 rounded-full shadow text-sm">CSS</span>
-                    <span class="px-4 py-2 bg-gray-100 rounded-full shadow text-sm">JavaScript</span>
-                </div>
-            </section>
-            <!-- Links -->
-            <section class="space-y-4 pb-10">
-                <h2 class="text-2xl font-semibold">Links</h2>
-                <div class="space-y-2">
-                    <a href="#" class="text-blue-600 underline">Live Website</a><br>
-                    <a href="#" class="text-blue-600 underline">GitHub Repository</a>
-                </div>
-            </section>
+<body class="bg-gradient-to-b from-red-900 to-red-800 text-white font-poppins">
+    <!-- Cute Header -->
+    <header
+        class="bg-red-800/90 shadow-lg p-4 md:p-6 rounded-b-2xl mb-8 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0">
+        <!-- Logo -->
+        <a href="#" class="flex items-center gap-3">
+            <img src="icons/berryations logo.png" alt="Berryations Logo" class="h-12 rounded-lg shadow-sm">
+            <span class="font-bold text-2xl md:text-3xl tracking-tight">BERRYATIONS</span>
+        </a>
+        <!-- Navigation -->
+        <nav class="flex gap-4 text-white font-semibold">
+            <a href="#about" class="hover:text-gray-300 transition">About</a>
+            <a href="#gallery" class="hover:text-gray-300 transition">Gallery</a>
+            <a href="#tech" class="hover:text-gray-300 transition">Tech</a>
+            <a href="#links" class="hover:text-gray-300 transition">Links</a>
+        </nav>
+    </header>
+    <div class="max-w-4xl mx-auto p-6 md:p-12 space-y-10">
+        <!-- Hero Image -->
+        <div class="w-full h-72 rounded-3xl shadow-lg overflow-hidden flex items-center justify-center">
+            <img src="icons/Fancy Squiggle.png" alt="Hero Image" class="w-full h-full object-cover">
         </div>
+        <!-- About Section -->
+        <section id="about" class="space-y-4 bg-red-900/50 p-6 rounded-2xl shadow-md">
+            <h2 class="text-2xl md:text-3xl font-bold">About This Project</h2>
+            <p class="leading-relaxed">
+                I want people to see my work and fall in love with it. I put 100% of all my effort into every piece.
+                I just want to make others happy and hopefully build a big career off of this experience. Drawing
+                has always been a passion of mine, and I want to share that passion with others through my art. I hope
+                to bring joy and positivity to those who see my work!
+            <p class="leading-relaxed">
+                I have an online persona which is what I use instead of my real face and name. So from time to time
+                My signatures have evolved over time but it is still me. My favorite color is red/pink so that is why my site has that color scheme. I want my site to feel warm
+                and inviting, just like my art!
+            </p>
+        </section>
+        <!-- Highlights Section -->
+        <section id="highlights" class="space-y-4 bg-red-900/50 p-6 rounded-2xl shadow-md">
+            <h2 class="text-2xl md:text-3xl font-bold">Key Features</h2>
+            <ul class="list-disc list-inside space-y-2">
+                <li>Customer can see my artwork.</li>
+                <li>Customer can contact/commission me through the site.</li>
+                <li>Customer can see my prices and learn about me.</li>
+                <li>Site is a not only a Portfolio but a journal/gallery </li>
+                <li>A place where I can store my artwork for future and present use.</li>
+            </ul>
+        </section>
+        <!-- Gallery -->
+        <section id="gallery" class="space-y-4">
+            <h2 class="text-2xl md:text-3xl font-bold">Gallery</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div
+                    class="h-48 rounded-2xl shadow-md overflow-hidden flex items-center justify-center hover:scale-105 transition">
+                    <img src="images/icon example 8.png" alt="Gallery Image 1" class="w-full h-full object-cover">
+                </div>
+                <div
+                    class="h-48 rounded-2xl shadow-md overflow-hidden flex items-center justify-center hover:scale-105 transition">
+                    <img src="images/icon example 3.png" alt="Gallery Image 2" class="w-full h-full object-cover">
+                </div>
+                <div
+                    class="h-48 rounded-2xl shadow-md overflow-hidden flex items-center justify-center hover:scale-105 transition">
+                    <img src="images/icon example 9.png" alt="Gallery Image 3" class="w-full h-full object-cover">
+                </div>
+                <div
+                    class="h-48 rounded-2xl shadow-md overflow-hidden flex items-center justify-center hover:scale-105 transition">
+                    <img src="images/icon example 7.png" alt="Gallery Image 4" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </section>
+        <!-- Tech Stack -->
+        <section id="tech" class="space-y-4 bg-red-900/50 p-6 rounded-2xl shadow-md">
+            <h2 class="text-2xl md:text-3xl font-bold">Tech Stack</h2>
+            <div class="flex flex-wrap gap-3">
+                <span class="px-4 py-2 bg-red-800/50 rounded-full shadow text-sm">HTML</span>
+                <span class="px-4 py-2 bg-red-800/50 rounded-full shadow text-sm">CSS</span>
+                <span class="px-4 py-2 bg-red-800/50 rounded-full shadow text-sm">JavaScript</span>
+            </div>
+        </section>
+        <!-- Links -->
+        <section id="links" class="space-y-4 bg-red-900/50 p-6 rounded-2xl shadow-md pb-10">
+            <h2 class="text-2xl md:text-3xl font-bold">Links</h2>
+            <div class="space-y-2">
+                <a href="#" class="underline hover:text-gray-300 transition">Live Website</a><br>
+                <a href="#" class="underline hover:text-gray-300 transition">GitHub Repository</a>
+            </div>
+        </section>
     </div>
 </body>
 
