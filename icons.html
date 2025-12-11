@@ -9,23 +9,91 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon Gallery </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: #8B2E2E;
+            font-family: 'Poppins', sans-serif;
+            padding: 30px;
+            color: #ffdce5;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+
+        .card-cute {
+            background: #B2666F;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 6px 18px rgba(255, 0, 40, 0.3);
+            transition: 0.2s;
+        }
+
+        .card-cute:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(255, 0, 40, 0.45);
+        }
+
+        .card-cute img {
+            width: 100%;
+            height: px;
+            object-fit: cover;
+        }
+
+        .card-cute p {
+            text-align: center;
+            color: #ffffff;
+            font-weight: 500;
+            padding: 10px 0;
+        }
+
+        .back-btn {
+            background: #8b0010;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 12px;
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+
+        .back-btn:hover {
+            background: #b80019;
+        }
+    </style>
+</head>
+
 <body>
-    <section class="section text-center">
-        <div class="container">
-            <h2>Icons</h2>
-            <p>Here are some icon pieces I've created!</p>
-            <div class="row justify-content-center">
-                <!-- Add your icon images here -->
-                <div class="col-md-4 mb-4">
-                    <img src="images/icon example.jpg" class="img-fluid rounded" alt="Icon Example 1">
-                </div>
-                <div class="col-md-4 mb-4">
-                    <img src="images/icon example 2.jpg" class="img-fluid rounded" alt="Icon Example 2">
-                </div>
-            </div>
-            <a href="index.html" class="btn btn-primary mt-3">Back</a>
+    <h1>Icons</h1>
+    <div class="gallery-grid">
+        <div class="card-cute"><img src="images/icon example 3.png">
+            <p>Icon 1</p>
         </div>
-    </section>
+        <div class="card-cute"><img src="images/icon example 7.png">
+            <p>Icon 2</p>
+        </div>
+        <div class="card-cute"><img src="images/icon example 8.png">
+            <p>Icon 3</p>
+        </div>
+    </div>
+    <div class="text-center"><a href="index.html" class="back-btn">⟵ Back Home</a></div>
 </body>
 
 </html>
